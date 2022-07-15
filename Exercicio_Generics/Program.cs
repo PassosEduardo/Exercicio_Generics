@@ -12,10 +12,15 @@ namespace Exercicio_Generics
 
         static void Main(string[] args)
         {
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("WELCOME TO LET´S SPEAK DICTIONARY   ");
 
-            Console.WriteLine("WELCOME TO LET´S SPEAK DICTIONARY   ");
+                Menu.CreateMenu();
 
-            Menu.CreateMenu();
+            }while(true);
+            
         }
 
 

@@ -39,7 +39,6 @@ namespace Exercicio_Generics
                 Console.ReadKey();
             }
 
-
         }
 
         public static void Include()
