@@ -13,11 +13,9 @@ namespace Exercicio_Generics
         static void Main(string[] args)
         {
 
-            Console.WriteLine("LET´S SPEAK DICTIONARY");
+            Console.WriteLine("WELCOME TO LET´S SPEAK DICTIONARY   ");
 
-            Dictionary.Include();
-
-            Dictionary.Search();
+            Menu.CreateMenu();
         }
 
 

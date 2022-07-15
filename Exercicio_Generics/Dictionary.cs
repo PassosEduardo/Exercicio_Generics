@@ -84,5 +84,18 @@ namespace Exercicio_Generics
             var content = File.ReadAllText(dbPath);
             dictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(content);
         }
+
+        public static void PrintAllDictionary()
+        {
+            Load();
+
+            Table table = new Table("Termos", "Significado");
+            foreach (var item in dictionary)
+            {
+                table.AddRow(item.Key, item.Value);
+            }
+            Console.Write(table.ToString());
+            Console.ReadKey();
+        }
     }
 }
