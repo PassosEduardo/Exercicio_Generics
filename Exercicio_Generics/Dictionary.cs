@@ -32,6 +32,7 @@ namespace Exercicio_Generics
             if(apereancesCount == 0)
             {
                 Console.WriteLine("Nenhum termo encontrado");
+                Console.ReadKey();
             }
             else
             {
